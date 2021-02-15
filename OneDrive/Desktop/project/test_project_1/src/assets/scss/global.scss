@@ -1,0 +1,27 @@
+body {
+  background-color: #f0f4f5;
+}
+.section-ptb {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section {
+  h2 {
+    position: relative;
+    margin-bottom: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #0d0321;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 56px;
+      background-color: #979797;
+      height: 1px;
+      width: 100%;
+    }
+  }
+}

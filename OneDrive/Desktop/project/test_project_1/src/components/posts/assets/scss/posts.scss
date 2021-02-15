@@ -1,0 +1,105 @@
+.single-post {
+  .post-thumb {
+    a {
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
+  .post-content {
+    transform: translate(27px, -10px);
+    width: calc(100% - 27px);
+    background-color: #fff;
+    border-radius: 10px;
+    .post-title {
+      font-family: SFUIDisplay;
+      font-size: 18px;
+      line-height: 1.41;
+      letter-spacing: 0.5px;
+      padding-top: 5px;
+      a {
+        color: #03061a;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    .tags-meta {
+      position: absolute;
+      width: 90%;
+      top: -15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        &.tag-link {
+          color: #03061a;
+          font-family: SFUIDisplayM;
+          font-size: 11px;
+          font-weight: 500;
+          background-color: #b2cbff;
+          border-radius: 11px;
+          padding: 4px 15px;
+        }
+      }
+      .share-btn {
+        img {
+          border-radius: 50%;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .post-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      span {
+        color: #bbb;
+        font-size: 12px;
+        img {
+          padding-right: 5px;
+        }
+      }
+    }
+    .author-name {
+      color: #03061a;
+      padding-bottom: 4px;
+      a {
+        color: #03061a;
+        font-size: 13px;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    .post-hover {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 5px;
+      border-top: 1px solid #ddd;
+      margin-top: 10px;
+      ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+          padding-right: 12px;
+          a {
+            color: #bbb;
+            font-size: 11px;
+            font-family: SFUIDisplayM;
+            span {
+              padding-left: 5px;
+            }
+          }
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
